@@ -2,11 +2,16 @@
 <Mod id="d8ba67f8-1a45-4fb3-b362-a1404641db0d" version="1">
   <Properties>
     <Name>Inland Flooding</Name>
-    <Description>Adds inland flooding</Description>
-    <Teaser>Adds inland flooding</Teaser>
+    <Description>A streamlined version of Nerevatar's excellent "Nere's Inland Flooding and Climate Change" mod. This edition removes climate change mechanics. Recommended if you use other mods that change CO₂ emissions or climate, as Nere's original version may cause conflicts. All credit for the original concept to Nerevatar.</Description>
+    <Teaser>Adds inland flooding without climate change mechanics</Teaser>
     <Authors>Nerevatar, Molten Ice</Authors>
     <AffectsSavedGames>0</AffectsSavedGames>
 	<CompatibleVersions>2.0</CompatibleVersions>
+	<Tags>
+		<Tag>Environment</Tag>
+		<Tag>Gameplay</Tag>
+		<Tag>Balance</Tag>
+	</Tags>
   </Properties>
   <FrontEndActions>
     <ImportFiles id="Nere_Flooding_Front">
