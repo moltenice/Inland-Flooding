@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d8ba67f8-1a45-4fb3-b362-a1404641db0d" version="1">
+  <Properties>
+    <Name>Inland Flooding</Name>
+    <Description>Adds inland flooding</Description>
+    <Teaser>Adds inland flooding</Teaser>
+    <Authors>Nerevatar, Molten Ice</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <ImportFiles id="Nere_Flooding_Front">
+      <File>Maps/Utility/CoastalLowlands.lua</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+	<ImportFiles id="Nere_Flooding">
+		<Properties>
+			<LoadOrder>99999</LoadOrder>
+		</Properties>
+		<File>Maps/Utility/CoastalLowlands.lua</File>
+	</ImportFiles>
+  </InGameActions>
+  <Files>
+	<File>Maps/Utility/CoastalLowlands.lua</File>
+  </Files>
+</Mod>
